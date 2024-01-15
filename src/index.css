@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200;700&display=swap');
+*{
+  font-family: 'Onest', sans-serif;
+  background-color: #333333;
+  color: white;
+}
+
+.name{
+  color: red;
+}
+
+.image{
+  height: 410px;
+  width: 410px;
+  object-fit: cover;
+  border-radius: 450px;
+  box-shadow: 3px 3px 30px rgba(255, 255, 255, 0.3);
+  
+}
+
+
+.cursor{
+  
+  border-left: 5px solid red;
+  display: inline;
+  
+}
+
+.app-intro{
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: space-around;
+}
+
+
+.nav-item{
+  text-decoration: none;
+  color: white;
+  margin-right: 6vw;
+}
+
+nav{
+  margin-top: 4vh;
+  margin-bottom: 0vh;
+  text-align: right;
+}
+
+.nav-item:hover{
+  color: red;
+}
+
+nav .nav-item.active{
+  color: red;
+}
