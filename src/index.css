@@ -5,6 +5,10 @@
   color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
 .name{
   color: red;
 }
@@ -91,7 +95,7 @@ nav{
   border: 1px white solid;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0px 10px 40px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .right-content p{
@@ -109,6 +113,7 @@ nav{
 .personal-info{
   display: flex;
   align-items: center;
+  font-size: 20px;
 }
 
 .left-content{
@@ -124,4 +129,9 @@ nav{
 .basic-intro p{
   font-size : 23px;
   font-weight : 200;
+}
+
+.profiles{
+  display: flex;
+  gap: 25px;
 }
