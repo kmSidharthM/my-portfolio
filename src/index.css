@@ -162,6 +162,7 @@ nav{
   align-items: center;
   flex-direction: column;
   width: 20vw;
+  cursor: pointer;
 }
 
 .app-contact{
