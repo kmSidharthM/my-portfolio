@@ -27,7 +27,7 @@ const Projects = () => {
       'title' : 'Accident Detection and Alert System',
       'desc' : 'It includes few hardware sensors like gyroscope, acclerometer and gps tracker that could detect if an accident happened or not and alert hospital, police and family of the same. It also has an app support to track bike location and to update emergency contact informations.',
       'status' : 'In Progress',
-      'link' :  'null'
+      'link' :  '#'
     },
     {
       'title' : 'Mathwiz',
